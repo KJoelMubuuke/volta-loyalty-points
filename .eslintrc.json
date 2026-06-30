@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+    "globals": {
+        "wp": "readonly",
+        "vlpData": "readonly"
+    },
+    "rules": {
+        "no-unused-vars": "error",
+        "no-undef": "error",
+        "eqeqeq": ["error", "always"],
+        "no-var": "off",
+        "prefer-const": "off"
+    },
+    "ignorePatterns": ["vendor/", "node_modules/"]
+}

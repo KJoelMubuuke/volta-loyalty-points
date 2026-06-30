@@ -1,0 +1,10 @@
+{
+    "name": "volta-loyalty-points",
+    "private": true,
+    "scripts": {
+        "lint:js": "eslint ."
+    },
+    "devDependencies": {
+        "eslint": "^8.57.1"
+    }
+}
