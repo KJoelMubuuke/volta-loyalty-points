@@ -1,0 +1,67 @@
+/* Volta Loyalty Points — cart/checkout redemption widget */
+
+.vlp-redeem-widget {
+	background: #faf6f0;
+	border: 1px solid #d8cdbf;
+	border-radius: 8px;
+	padding: 1.25rem 1.5rem;
+	margin-bottom: 1.5rem;
+	font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+}
+
+.vlp-redeem-balance {
+	font-weight: 700;
+	color: #1a1410;
+	margin: 0 0 0.5rem;
+}
+
+.vlp-redeem-applied {
+	color: #2e7d32;
+	font-weight: 600;
+	margin: 0 0 0.75rem;
+}
+
+.vlp-redeem-form {
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0 0 0.5rem;
+}
+
+.vlp-redeem-form input[type="number"] {
+	width: 7rem;
+	padding: 0.5rem 0.65rem;
+	border: 1px solid #d8cdbf;
+	border-radius: 4px;
+	font-size: 0.95rem;
+}
+
+.vlp-redeem-apply,
+.vlp-redeem-remove {
+	background: #1a1410;
+	color: #f5eee3;
+	border: none;
+	border-radius: 4px;
+	padding: 0.55rem 1.25rem;
+	font-size: 0.875rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.vlp-redeem-apply:hover,
+.vlp-redeem-apply:focus-visible,
+.vlp-redeem-remove:hover,
+.vlp-redeem-remove:focus-visible {
+	background: #e8b33d;
+	color: #1a1410;
+	outline: 3px solid #e8b33d;
+	outline-offset: 2px;
+}
+
+.vlp-redeem-hint {
+	color: #6f4e37;
+	font-size: 0.85rem;
+	margin: 0;
+}

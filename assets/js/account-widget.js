@@ -53,6 +53,7 @@
 			null,
 			el( 'p', { className: 'vlp-points-balance' }, points + ' ' + vlpData.strings.pointsLabel ),
 			el( 'p', { className: 'vlp-points-hint' }, vlpData.strings.earnHint ),
+			el( 'p', { className: 'vlp-points-hint' }, vlpData.strings.redeemHint ),
 			el(
 				'button',
 				{ type: 'button', className: 'vlp-points-refresh', onClick: fetchPoints },
